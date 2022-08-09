@@ -19,4 +19,10 @@ class FizzBuzz {
             }
         }
     }
+
+    sayHello(name) {
+        return `Hello ${name}, My Name is ${this.name}`;
+    }
+
+
 }
